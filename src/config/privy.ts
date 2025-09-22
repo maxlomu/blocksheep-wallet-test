@@ -16,17 +16,10 @@ export const privyConfig = {
     defaultChain: baseSepolia,
     supportedChains: [baseSepolia],
     // Enable sponsored transactions
+    sponsoredTransactions: true,
+    // Embedded wallet configuration
     embeddedWallets: {
       createOnLogin: 'users-without-wallets',
-      noPromptOnSignature: true,
-    },
-    // Configure login methods
-    loginMethods: ['wallet', 'email', 'sms', 'google', 'twitter', 'discord'],
-    // Appearance
-    appearance: {
-      theme: 'light',
-      accentColor: '#676FFF',
-      logo: 'https://your-logo-url.com/logo.png',
     },
   },
 };
